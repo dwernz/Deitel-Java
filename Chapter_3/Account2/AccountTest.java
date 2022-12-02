@@ -6,7 +6,7 @@ package Chapter_3.Account2;
 
 public class AccountTest {
     public static void main(String[] args) {
-        // create two Accoutn objects
+        // create two Account objects
         Account account1 = new Account("Jane Green");
         Account account2 = new Account("John Blue");
 
