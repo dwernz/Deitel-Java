@@ -1,17 +1,17 @@
-package Chapter_4.Student1;
+package Chapter_3;
 
-// Fig. 4.10: ClassAverage2.java
-// Solving the class-average problem using sentinel-controlled iteration.
+// Fig. 3.8: ClassAverage2.java
+// Solving the class-average problem using sentinel-controlled repetition.
 import java.util.Scanner; // program uses class Scanner
 
-public class classAverage2 {
+public class ClassAverage2 {
     public static void main(String[] args) {
         // create Scanner to obtain input from command window
         Scanner input = new Scanner(System.in);
 
         // initialization phase
         int total = 0; // initialize sum of grades
-        int gradeCounter = 0; // initialize # of grades entered so far
+        int gradeCounter = 0; // initialize # of grades entered so far.
 
         // processing phase
         // prompt for input and read grade from user
@@ -21,12 +21,12 @@ public class classAverage2 {
         // loop until sentinel value read from user
         while (grade != -1) {
             total = total + grade; // add grade to total
-            gradeCounter = gradeCounter + 1; // increment counter
+            gradeCounter = gradeCounter + 1;
 
-            // prompt for input and read next grade from user
+            // prompt user input and read next grade from user
             System.out.print("Enter grade or -1 to quit: ");
             grade = input.nextInt();
-        }
+        } // end while loop
 
         // termination phase
         // if user entered at least one grade...
@@ -37,10 +37,11 @@ public class classAverage2 {
             // display total and average (with two digits of precision)
             System.out.printf("%nTotal of the %d grades entered is %d%n", gradeCounter, total);
             System.out.printf("Class average is %.2f%n", average);
-        } else { // no grades were entered, so output appropriate message
+        } // end if statement
+        else { // no grades were entered, so output appropriate message
             System.out.println("No grades were entered");
-        }
+        } // end else statement
 
         input.close();
-    }
-}
+    } // end method main
+} // end class ClassAverage2

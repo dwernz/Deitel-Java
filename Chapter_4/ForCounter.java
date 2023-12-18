@@ -1,4 +1,4 @@
-package Chapter_5;
+package Chapter_4;
 
 // Fig. 5.2: ForCounter.java
 // Counter-controlled iteration with the for iteration statement.

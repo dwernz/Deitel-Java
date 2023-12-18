@@ -1,6 +1,6 @@
-package Chapter_5;
+package Chapter_4;
 
-// Fig. 5.1: WhileCounter.java
+// Fig. 4.1: WhileCounter.java
 // Counter-controlled iteration with the while iteration statement.
 
 public class WhileCounter {

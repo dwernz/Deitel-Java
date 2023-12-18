@@ -1,8 +1,8 @@
-package Chapter_4;
+package Chapter_3;
 
-// Fig. 4.12: Analysis.java
+// Fig. 3.10: Analysis.java
 // Analysis of examination results using nested control statements.
-import java.util.Scanner; // class uses class Scanner
+import java.util.Scanner;
 
 public class Analysis {
     public static void main(String[] args) {
@@ -17,22 +17,23 @@ public class Analysis {
         // process 10 students using counter-controlled loop
         while (studentCounter <= 10) {
             // prompt user for input and obtain value from user
-            System.out.print("Enter result (1 = pass, 2 = fail: ");
+            System.out.print("Enter result *1 = pass, 2 = fail): ");
             int result = input.nextInt();
 
             // if...else is nested in the while statement
             if (result == 1) {
                 passes = passes + 1;
-            } else {
+            } // end if statement
+            else {
                 failures = failures + 1;
-            }
+            } // end else statement
 
             // increment studentCounter so loop eventually terminates
             studentCounter = studentCounter + 1;
-        }
+        } // end while loop
 
         // termination phase; prepare and display results
-        System.out.printf("Passed %d%nFailed:%d%n", passes, failures);
+        System.out.printf("Passed: %d%nFailed: %d%n", passes, failures);
 
         // determine whether more than 8 students passed
         if (passes > 8) {
@@ -40,5 +41,5 @@ public class Analysis {
         }
 
         input.close();
-    }
-}
+    } // end method main
+} // end class Analysis

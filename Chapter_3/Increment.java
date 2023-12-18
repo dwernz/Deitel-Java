@@ -1,4 +1,4 @@
-package Chapter_4;
+package Chapter_3;
 
 // Fig. 4/15: Increment.java
 // Prefix increment and postfix increment operators.
