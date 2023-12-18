@@ -14,7 +14,7 @@ public class Comparison {
         System.out.print("Enter first integer: "); // prompt
         int number1 = input.nextInt(); // read first number from user.
 
-        System.out.print("Enter secong integer: "); // prompt
+        System.out.print("Enter second integer: "); // prompt
         int number2 = input.nextInt(); // read second number from user.
 
         if (number1 == number2) {
@@ -40,5 +40,7 @@ public class Comparison {
         if (number1 >= number2) {
             System.out.printf("%d >= %d%n", number1, number2);
         }
+
+        input.close();
     } // end method main
 } // end class Comparison

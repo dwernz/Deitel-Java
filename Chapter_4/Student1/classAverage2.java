@@ -9,7 +9,7 @@ public class classAverage2 {
         // create Scanner to obtain input from command window
         Scanner input = new Scanner(System.in);
 
-        // intialization phase
+        // initialization phase
         int total = 0; // initialize sum of grades
         int gradeCounter = 0; // initialize # of grades entered so far
 
@@ -28,7 +28,7 @@ public class classAverage2 {
             grade = input.nextInt();
         }
 
-        // terminiation phase
+        // termination phase
         // if user entered at least one grade...
         if (gradeCounter != 0) {
             // use number with decimal point to calculate average of grades
@@ -40,5 +40,7 @@ public class classAverage2 {
         } else { // no grades were entered, so output appropriate message
             System.out.println("No grades were entered");
         }
+
+        input.close();
     }
 }
