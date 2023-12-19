@@ -1,4 +1,4 @@
-package Chapter_5;
+package Chapter_4;
 
 // Fig. 5.9: LetterGrades.java
 // LetterGrades class uses the switch statement to count letter grades.

@@ -1,4 +1,4 @@
-package Chapter_5;
+package Chapter_4;
 
 // Fig. 5.6: Interest.java
 // Compound-interest calculations with for.

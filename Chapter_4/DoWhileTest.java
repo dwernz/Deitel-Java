@@ -1,4 +1,4 @@
-package Chapter_5;
+package Chapter_4;
 
 // Fig. 5.7: DoWhileTest.java
 // do...while iteration statement
