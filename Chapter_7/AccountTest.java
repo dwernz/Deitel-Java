@@ -23,5 +23,7 @@ public class AccountTest {
 
         // display the name stored in object myAccount
         System.out.printf("Name in object myAccount is:%s%n%n", myAccount.getName());
+
+        input.close();
     } // end method main
 } // end class AccountTest
